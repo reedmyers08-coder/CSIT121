@@ -1,0 +1,27 @@
+article {
+  display: grid;
+  grid-template-columns: 1 1 1;
+  background-color: black;
+  padding: 10px;
+}
+body {
+    background-color: rgb(30, 30, 30);
+    color: white;
+}
+h4, h5 {
+    font-size:22px; 
+}
+#big{
+    font-size:22px;
+}
+.red {
+    color:red;
+}
+@media (min-width: 600px) {
+    article {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+}
